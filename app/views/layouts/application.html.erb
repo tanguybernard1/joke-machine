@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head >
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <title>JokeMachine</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+  	<script type="text/javascript">
+  		var bg_colour = Math.floor(Math.random() * 16777215).toString(16);
+       	bg_colour = "#" + ("000000" + bg_colour).slice(-6);
+    		document.bgColor = bg_colour;
+  	</script>
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body >
     <%= yield %>
   </body>
 </html>

@@ -1,15 +1,33 @@
+a {
+  font-style: normal;
+  font-weight: normal;
+  text-decoration:none;
+}
+
 body {
-  background-color: #fff;
-  color: #333;
+//    background-color: yellow;
+//color: #333;
   margin: 33px;
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-family: 'Merriweather', serif;
+  //font-size: 13px;
   line-height: 18px;
+
+}
+
+section{
+	position: relative;
+    margin-top: 4%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding: 60px 50px 50px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
+    color: black;
 }
 
 p, ol, ul, td {
-  font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  //font-size: 18px;
   line-height: 18px;
 }
 

@@ -5,6 +5,6 @@ bundle install
 yarn install
 
 docker-compose up
-bin/webpack-dev-server
+  bin/webpack-dev-server
 rails s
 ```

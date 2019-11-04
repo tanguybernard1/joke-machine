@@ -55,7 +55,6 @@ function getNewJoke() {
 }
 
 const jokeContainer = document.querySelector('.joke-container')
-console.log(jokeContainer)
 jokeContainer.addEventListener('click', () => {
   randomBackgroundColor()
   getNewJoke()

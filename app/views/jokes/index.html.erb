@@ -1,12 +1,4 @@
-
-<a <%= link_to root_path do %>
-<body bgcolor="#602a55">
-
-<section class='joke-text'>
-  <p><%= @joke.body %></p>
-</section>
-<section class='joke-text'>
-  <p><%= @joke.answer %></p>
-</section>
-</body>
-</a<% end %>
+<div class='joke-container'>
+  <p class='joke joke-body'><%= @joke.body %></p>
+  <p class='joke joke-answer'><%= @joke.answer %></p>
+</div>

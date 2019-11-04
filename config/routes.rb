@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
 
   resources :jokes, only: :index
+  get '/refresh', to: 'jokes#refresh'
 
   root to: 'jokes#index'
 end

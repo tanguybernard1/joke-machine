@@ -2,6 +2,10 @@
 
 class JokesController < ApplicationController
   def index
-    @joke = Joke.order('RANDOM()').first
+    @joke = Joke.get_random_one
+  end
+
+  def refresh
+    render json: Joke.get_random_one.slice(:body, :answer)
   end
 end

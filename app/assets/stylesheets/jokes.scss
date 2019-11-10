@@ -9,11 +9,12 @@
 }
 
 .joke {
-  font-size: 30px;
+  font-size: 3.5em;
 }
 
 .joke-answer {
-  margin-top: 30px;
+  margin-top: 3em;
+  font-size: 30px;
 }
 
 .footer-form {
@@ -23,3 +24,13 @@
   flex-direction: column;
   align-items: center;
 }
+
+body {
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+/* a {
+text-decoration: none;
+color: black;
+} */

@@ -30,7 +30,17 @@ body {
   margin-right: 3em;
 }
 
- a {
-text-decoration: none !important;
-color: black !important;
+.button-form {
+  width:310px;
+  padding:6px  6px ;
+	font:Bold 1.3em Arial;
+	background:#d34836;
+	color:#fff;
+	border-radius:8px;
+	border:none;
+}
+
+.button-form:hover{
+    cursor:pointer;
+    background-color:#4CAF50;
 }

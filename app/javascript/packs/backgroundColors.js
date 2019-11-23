@@ -2,8 +2,9 @@ const black = 'rgb(39,39,39)'
 const white = 'rgb(247,247,247)'
 
 export const colors = [
+  ['rgb(64,110,88)', 'rgb(191,145,167)'],
   ['rgb(94,96,97)', white],
-  ['rgb(146,148,148)', white],
+  ['rgb(146,148,148)', black],
   ['rgb(167,168,165)', black],
   ['rgb(188,187,182)', black],
   ['rgb(77,106,168)', white],
@@ -16,7 +17,6 @@ export const colors = [
   ['rgb(138,181,186)', black],
   ['rgb(168,196,193)', black],
   ['rgb(198,213,204)', black],
-  ['rgb(64,110,88)', white],
   ['rgb(145,175,161)', white],
   ['rgb(190,203,183)', black],
   ['rgb(62,111,66)', white],

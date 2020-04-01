@@ -5,15 +5,15 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: 'Zilla Slab', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .joke {
-  font-size: 3.5em;
+  font-size: 4.5em;
 }
 
 .joke-answer {
-  margin-top: 3em;
+  margin-top: 2.5em;
   font-size: 30px;
 }
 
@@ -32,7 +32,7 @@ body {
 #button-form {
   width:310px;
   padding:6px  6px ;
-	font:Bold 1.3em Arial;
+	font:Bold 1.8em Roboto;
 	background:#d34836;
 	color:#fff;
 	border-radius:8px;
